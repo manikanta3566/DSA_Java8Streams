@@ -31,8 +31,11 @@ public class Main {
 
 //        System.out.println(PalindromeString.palindromeString("madam"));
 
-        int[] arr= new int[]{0,2,2,1,0,0,1};
-        Sort0s1s2s.sort0s1s2s(arr);
-        System.out.println(Arrays.toString(arr));
+//        int[] arr= new int[]{0,2,2,1,0,0,1};
+//        Sort0s1s2s.sort0s1s2s(arr);
+//        System.out.println(Arrays.toString(arr));
+
+        System.out.println(GroupAnagrams.groupAnagrams(new
+                String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
     }
 }

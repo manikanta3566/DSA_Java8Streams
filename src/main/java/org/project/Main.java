@@ -3,8 +3,6 @@ package org.project;
 import java.util.Arrays;
 import org.project.questions.*;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
 
@@ -35,7 +33,9 @@ public class Main {
 //        Sort0s1s2s.sort0s1s2s(arr);
 //        System.out.println(Arrays.toString(arr));
 
-        System.out.println(GroupAnagrams.groupAnagrams(new
-                String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+//        System.out.println(GroupAnagrams.groupAnagrams(new
+//                String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+
+
     }
 }

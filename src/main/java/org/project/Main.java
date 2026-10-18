@@ -1,6 +1,10 @@
 package org.project;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+
+import org.project.patterns.twopointers.SortColors;
 import org.project.questions.*;
 
 public class Main {
@@ -35,7 +39,9 @@ public class Main {
 
 //        System.out.println(GroupAnagrams.groupAnagrams(new
 //                String[]{"eat", "tea", "tan", "ate", "nat", "bat"}));
+//        System.out.println(Arrays.toString(TwoSum.twoSum(new int[]{3,7,9,11},20)));
+//          SortColors.sortColors(new int[]{1,2,0,1,2,0,0,1,2});
 
-
+        EleFreq.countEleOptimized("abcacbae");
     }
 }
